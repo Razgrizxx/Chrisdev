@@ -3,7 +3,15 @@ export const projectsList = [
     title: "Flightpath",
     description:
       "Flightpath is a modern wellness and massage therapy platform designed to connect clients with certified tantric practitioners. The site provides information about available services and enables easy appointment booking through an intuitive interface and responsive design.",
-    technologies: ["ReactJs", "TailwindCSS", "TypeScript", "Gsap"],
+    technologies: [
+      "ReactJs",
+      "TailwindCSS",
+      "TypeScript",
+      "Gsap",
+      "ThreeJs",
+      "React Three Fiber",
+      "Gsap",
+    ],
     githubUrl: "https://github.com/Razgrizxx/flightpath.git",
     liveUrl: "https://flight-path-beige.vercel.app/",
     image: "/projects/flightpath.png",

@@ -73,7 +73,7 @@ const AboutMe = () => {
               className="pt-4 w-fit"
             >
               <a
-                href="https://drive.google.com/uc?export=download&id=1N3-yKox_nYXXRzTA1DRYIUdS2uUS4bNe"
+                href="https://drive.google.com/file/d/1tWo4aieO8uKFvJH0S55nrB4d6L0ymx0d/view?usp=drive_link"
                 className="bg-primary-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
               >
                 Download Resume
