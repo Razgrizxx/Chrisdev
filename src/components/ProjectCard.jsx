@@ -15,13 +15,14 @@ const ProjectCard = ({ project, index }) => {
   };
 
   return (
-    <motion.div
+    <motion.a
+      href={project.liveUrl}
       variants={cardVariants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       whileHover={{ y: -10 }}
-      className="bg-slate-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 hover:border-primary-500 transition-colors"
+      className="bg-slate-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 hover:border-primary-500 transition-colors select-none cursor-pointer"
     >
       {/* Project Image */}
       <div className="h-56 bg-gray-700 flex items-center justify-center text-gray-400">
@@ -52,7 +53,7 @@ const ProjectCard = ({ project, index }) => {
         </div>
 
         {/* Links */}
-        <div className="flex gap-4">
+        {/*  <div className="flex gap-4">
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -75,9 +76,9 @@ const ProjectCard = ({ project, index }) => {
             <FiExternalLink size={18} />
             <span className="font-medium">Live Demo</span>
           </motion.a>
-        </div>
+        </div> */}
       </div>
-    </motion.div>
+    </motion.a>
   );
 };
 

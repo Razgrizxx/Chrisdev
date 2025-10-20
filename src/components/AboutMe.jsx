@@ -70,7 +70,7 @@ const AboutMe = () => {
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="pt-4"
+              className="pt-4 w-fit"
             >
               <a
                 href="https://drive.google.com/uc?export=download&id=1N3-yKox_nYXXRzTA1DRYIUdS2uUS4bNe"
