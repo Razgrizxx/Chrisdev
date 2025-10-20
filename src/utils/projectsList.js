@@ -1,0 +1,87 @@
+export const projectsList = [
+  {
+    id: 1,
+    title: "SpartanVideo",
+    description:
+      "SpartanVideo is a video streaming application that allows users to create an account and watch videos. It is built using Nextjs and is deployed on Vercel.",
+    technologies: [
+      "NextJS",
+      "TailwindCSS",
+      "JavaScript",
+      "TypeScript",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Webpack",
+      "NextAuth",
+      "Vercel",
+    ],
+    githubUrl: "https://github.com/Razgrizsx/Spartan-Video",
+    liveUrl: "https://spartan-video.vercel.app/",
+    image: "/projects/spartanvideo.png",
+  },
+  {
+    id: 2,
+    title: "Fitness",
+    description:
+      "Fitness is a web application is a template for a fitness app where people can read about the bussiness, contact the owners and register",
+    technologies: [
+      "ReactJS",
+      "Vite",
+      "Redux",
+      "TailwindCSS",
+      "TypeScript",
+      "TailWind",
+      "Webpack",
+      "Vercel",
+    ],
+    githubUrl: "https://github.com/Razgrizsx/Fitness_App",
+    liveUrl: "https://fitness-app-tawny.vercel.app/",
+    image: "/projects/fitness.PNG",
+  },
+  {
+    id: 3,
+    title: "UiTool",
+    description:
+      "UiTool is a no code app that let the users create web apps, posts, emails among other things. Then the user can share those with the world.",
+    technologies: [
+      "NextJS",
+      "TailwindCSS",
+      "TypeScript",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Drag and Drop",
+    ],
+    githubUrl: "",
+    liveUrl: "https://uitool-dev.vercel.app",
+    image: "/projects/UiTool.png",
+  },
+  {
+    id: 4,
+    title: "Dot Dager",
+    description:
+      "This is a page my team in Abstract and i made for the youtuber Dot Dager as part of a competition, it contains a good amount of technologies like 3d models and lighting",
+    technologies: [
+      "ReactJs",
+      "CSS",
+      "Tailwind",
+      "TypeScript",
+      "React three fiber",
+      "ThreeJs",
+    ],
+    githubUrl: "",
+    liveUrl: "https://dot-dager-pickles.netlify.app",
+    image: "/projects/dager.png",
+  },
+  {
+    id: 5,
+    title: "LinkZ",
+    description:
+      "LinkZ is an app that let the users create list of links to their social media or any other site that they want, it offers a variety of options to customize the links (currently under development)",
+    technologies: ["ReactJs", "TailwindCSS", "TypeScript", "NestJs", "MongoDB"],
+    githubUrl: "",
+    liveUrl: "https://linkz-client.vercel.app/auth",
+    image: "/projects/linkz.png",
+  },
+];
