@@ -2,7 +2,7 @@ export const projectsList = [
   {
     title: "Flightpath",
     description:
-      "Flightpath is a modern wellness and massage therapy platform designed to connect clients with certified tantric practitioners. The site provides information about available services and enables easy appointment booking through an intuitive interface and responsive design.",
+      "An immersive web application developed for Flightpath, showcasing their premium golf tees through an interactive 3D experience. The app allows users to explore products from every angle, examine details up close, and visualize the tees in a dynamic environment",
     technologies: [
       "ReactJs",
       "TailwindCSS",
