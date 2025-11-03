@@ -25,11 +25,11 @@ const Hero = () => {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 0.2, type: "spring", stiffness: 100 }}
-            className="w-40 h-40 bg-gray-700 rounded-full mx-auto mb-8 flex items-center justify-center text-gray-400 border-2 border-primary-500"
+            className="w-[205px] h-[205px] bg-gray-700 rounded-full mx-auto mb-8 flex items-center justify-center text-gray-400 border-2 border-primary-500"
           >
             <img
-              className="w-[155px] h-[155px] bg-gray-700 rounded-full flex items-center justify-center object-cover object-[center_35%]"
-              src="self.png"
+              className="w-[200px] h-[200px] bg-gray-700 rounded-full flex items-center justify-center object-cover object-bottom"
+              src="self2.png"
               alt="self"
             />
           </motion.div>
