@@ -8,7 +8,7 @@ export const skills = {
     { name: "Redux", icon: "/icons/redux.png" },
     { name: "Next.js", icon: "/icons/next.png" },
     { name: "Tailwind CSS", icon: "/icons/tailwind.png" },
-    { name: "Material UI", icon: "/icons/mui.png" },
+    { name: "Vue", icon: "/icons/vue.png" },
     { name: "React Three Fiber", icon: "/icons/r3f.png" },
     { name: "Three.js", icon: "/icons/three.png" },
     { name: "GSAP", icon: "/icons/gsap.png" },
