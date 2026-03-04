@@ -25,6 +25,7 @@ export const skills = {
     { name: "Python", icon: "/icons/python.png" },
     { name: "Prisma", icon: "/icons/prisma.png" },
     { name: "APIs", icon: "/icons/api.png" },
+    { name: "PHP", icon: "/icons/api.png" },
   ],
   tools: [
     { name: "Git", icon: "/icons/git.png" },
