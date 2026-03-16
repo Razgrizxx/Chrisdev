@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 
 export const contactInfo = {
   email: "razgrisss41@gmail.com",
-  phone: "+54 113-116-4111",
+  phone: "+54 116-285-5840",
   location: "Buenos Aires, Argentina",
   linkedin: "https://www.linkedin.com/in/christian-javier-rizzo/",
   github: "https://github.com/Razgrizxx",
@@ -28,7 +28,7 @@ export const handleContactSubmit = async (formData) => {
         message: formData.message,
         to_email: contactInfo.email, // Your email address
       },
-      EMAILJS_CONFIG.publicKey
+      EMAILJS_CONFIG.publicKey,
     );
 
     console.log("Email sent successfully:", response);
